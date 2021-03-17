@@ -27,6 +27,7 @@ class Solution:
         #         area = min(height[i], height[j]) * (j - i)
         #         if area > area_max:
         #             area_max = area
+        
         return area_max
 
 
