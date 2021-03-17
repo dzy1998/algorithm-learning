@@ -17,6 +17,7 @@ class Solution:
             return 0
         Max = max(nums)
         cnt = 0
+        
         # 用item来遍历的时候，可以计数，但是不能赋值，item = Max没有用？
         for i in range(length):
             if nums[i] == val:
