@@ -16,6 +16,7 @@ class ListNode:
 # 麻烦的是python中没有指针这一概念。思路还是有的，1开辟新的链表，其中的元素是l1, l2中的较小者
 # 2将l1, l2合并为一个有序链表。具体实现起来还是下不了手，主要是不明白ListNode的结构，不懂它的next是怎么回事
 # 实现的代码是用户@风不语的答案，比较简单，明白。涉及指针问题可能用C/C++比较容易理解
+
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         # 这里的None是res.next为空，本身是存在的，相当于头指针
