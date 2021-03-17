@@ -12,6 +12,7 @@ class Solution:
         # i = 0
         # j = 0
         num = 1
+        
         # list = [0 for x in range(0, n)]
         # lists = [list for x in range(0, n)]出错，可能时lists[0]发生变化时，lists[1]、2、3同时发生变化，因为是指向同一块内容？
         lists = [[0 for x in range(0, n)] for x in range(0, n)]
