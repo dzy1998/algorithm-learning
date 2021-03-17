@@ -6,8 +6,9 @@ Desc: 67.二进制加法。和也用二进制表示
 """
 
 class Solution:
-    def addBinary(self, a: str, b: str) -> str:
+    def addBinary(self, a: str, b: str) -> str:      
         # 思路就是人的二进制加法思路，实现方法很普通，时间、空间都很差
+        
         la = len(a)
         lb = len(b)
         i = 1
