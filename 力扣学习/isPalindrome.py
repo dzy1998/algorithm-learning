@@ -7,6 +7,7 @@ Desc: 给定一个整数，判断是否符合回文。思路将其转换为字�
 
 
 class Solution:
+    
     def isPalindrome(self, x: int) -> bool:
         s1 = str(x)
         length = len(s1)
